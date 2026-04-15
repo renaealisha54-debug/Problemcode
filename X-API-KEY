@@ -1,0 +1,6 @@
+// Example using Retrofit in Android
+val request = Request.Builder()
+    .url("https://your-server.com/api/execute")
+    .addHeader("X-API-KEY", "YOUR_SECRET_TOKEN")
+    .post(body)
+    .build()

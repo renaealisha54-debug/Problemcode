@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+temp_*.py
+app-release.apk
+X-API-KEY

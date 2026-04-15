@@ -1,0 +1,12 @@
+problem-code-app/
+├── client/
+│   ├── index.html
+│   ├── style.css
+│   └── app.js
+├── server/
+│   ├── main.py            # API endpoints
+│   ├── executor.py        # Logic to run code in Docker
+│   ├── ai_service.py      # Logic for LLM calls
+│   └── requirements.txt   # Python dependencies
+├── Dockerfile             # Security sandbox for code execution
+└── README.md              # Documentation on how to run your app
